@@ -294,7 +294,7 @@ button,
 input,
 select,
 textarea {
-  font-family: orbitron;
+  font-family: "orbitron";
 }
 
 code,
@@ -8433,6 +8433,12 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+@font-face {
+  font-family: "orbitron";
+  src: url("../../assets/fonts/orbitron.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
 .glitch-container {
   height: 50vh;
   display: flex;
@@ -8578,5 +8584,3 @@ darkblack {
 .biotext {
   text-align: center;
 }
-
-/*# sourceMappingURL=assets/css/main.css.map */
